@@ -1,1 +1,97 @@
-/* место для вашего кода */
+.body {
+  font-variant-numeric: lining-nums;
+    }
+
+/*.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1100px;
+  height: 293px;
+  opacity: 1;
+}*/
+
+.header__menu {
+  width: 391px;
+  height: 22px;
+  opacity: 1;
+ }
+
+ .header__links-list {
+  display: flex; 
+  list-style: none;
+  gap: 13px;
+ }
+
+/*.header__logo-image {
+  width: 148px;
+  height: 105px;
+  opacity: 1;
+ }
+
+.header__address {
+  display: inline-block;
+  margin-left: auto;
+  opacity: 1;
+  width: 391px;
+  height: 22px;
+}
+
+.cover{
+  background-image: url("../images/cover.jpg");
+  min-height: 757px;
+  top: 293px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 180px;
+  }
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.6;
+  }
+
+  .cover__title {
+  font-size: 100px; 
+  line-height: 115%;
+  letter-spacing: 30%;
+  text-transform: uppercase;
+  }
+
+.accent-span{
+  font-family: Raleway;
+  font-weight: 700px;
+  font-style: Bold;
+  font-size: 100px;
+  line-height: 115%;
+  letter-spacing: 30%;
+  text-transform: uppercase;
+  color:#FFFFFF;
+  width: 286px;
+  height: 115px;
+  opacity: 1;
+  }
+
+.text-left {
+  width: 286px;
+  top: 165px;
+  left: 50px;
+ }
+
+.text-center {
+  width: 339px;
+  top: 300px;
+  left: 380.5px;
+ }
+
+.text-right {
+  width: 387px;
+  top: 435px;
+  left: 663px;
+}*/
