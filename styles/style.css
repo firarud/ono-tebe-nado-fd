@@ -244,6 +244,7 @@
   background-image: url("../images/card-lot-03.jpg");
 }
 
+/*заголовок и текст*/
 .card__title,
 .card__text {
   position: relative;
