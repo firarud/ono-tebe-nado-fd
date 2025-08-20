@@ -7,7 +7,7 @@
 }
 
 .header {
-  padding: 88px 60px 92px 52px; /*???? */
+  padding: 88px 60px 90px 52px; /*???? */
   display: grid; /* ** */
   grid-template-columns: 1fr min-content 1fr; /* ** */
   align-items: center; /* ** */
