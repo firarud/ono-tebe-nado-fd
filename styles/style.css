@@ -7,7 +7,7 @@
 }
 
 .header {
-  padding: 92px 60px 90px 52px; /*???? */
+  padding: 90px 60px 90px 50px; /*???? */
   display: grid; /* ** */
   grid-template-columns: 1fr min-content 1fr; /* ** */
   align-items: center; /* ** */
@@ -112,18 +112,18 @@
 
 .text-left {
   text-align: left;
-  margin-left: 45px;
+  margin-left: 48px;
 }
 
 .text-center {
   line-height: 155px;
   text-align: center;
-  margin-left: 34px;
+  margin-left: 32px;
 }
 
 .text-right {
   text-align: end;
-  margin-right: 25px;
+  margin-right: 22px;
 }
 
 .description {
@@ -342,7 +342,7 @@
 }
 
 .footer {
-  padding: 180px 50px 180px 50px;
+  padding: 180px 50px 150px 50px;
   max-width: 1100px;
   top: 2848px;
   display: flex;
