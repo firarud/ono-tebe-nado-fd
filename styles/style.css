@@ -7,7 +7,7 @@
 }
 
 .header {
-  padding: 88px 60px 90px 52px; /*???? */
+  padding: 92px 60px 90px 50px; /*???? */
   display: grid; /* ** */
   grid-template-columns: 1fr min-content 1fr; /* ** */
   align-items: center; /* ** */
@@ -129,7 +129,7 @@
 .description {
   font-family: "Raleway", sans-serif;
   line-height: 28px;
-  margin-top: 110px;
+  margin-top: 105px;
   z-index: 2;
   position: relative;
   display: flex;
