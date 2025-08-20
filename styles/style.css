@@ -67,6 +67,7 @@
   line-height: 25px;
 }
 
+/*выравнивание адреса шапки*/
 .header__address {
   justify-self: end; /* ** */
   max-width: 230px;/* ** */
