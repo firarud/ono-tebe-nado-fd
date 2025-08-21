@@ -7,23 +7,22 @@
 }
 
 .header {
-  padding: 90px 60px 95px 50px; /*???? */
+  padding: 95px 60px 95px 50px; /*???? */
   display: grid; /* ** */
   grid-template-columns: 1fr min-content 1fr; /* ** */
   align-items: center; /* ** */
 }
 
-.header__menu {
+.menu {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
   color: #000;
-  display: flex;
 }
 
 .header__links-list,
-.header__links-list-item_no-bullit,
+.link_active,
 .header__links-list-item,
 .header__address {
   list-style: none;
@@ -33,9 +32,9 @@
 
 /*ul menu*/
 .header__links-list {
+  text-underline-offset: 3px; /* точно*/
   gap: 32px; /* точно*/
   display: flex; /* ** */
-  text-underline-offset: 3px; /* точно*/
 }
 
 /*li menu*/
@@ -44,15 +43,15 @@
   align-self: start;
 }
 
-/*"главная"*/
-.header__links-list-item_no-bullit {
-  /* только так, иначе будет точка*/
-  list-style: none;
+.link_active {
+  text-decoration: none;
 }
 
 .header__logo-image {
   width: 148px;
   height: 105px;
+  display: block;
+  margin-left: 13px;
 }
 
 /*адресс общий*/
@@ -297,7 +296,6 @@
 .about__logo {
   width: 240px;
   height: 240px;
-  top: 35px;
   left: 47px;
   background-color: #000;
   margin: 32px 0 0 70px;
@@ -316,7 +314,6 @@
 /*div для 2-ой секции*/
 .about__column-text {
   min-width: 693px;
-  height: 312px;
   margin: 135px 50px;
   display: flex;
   flex-direction: column;
@@ -343,7 +340,7 @@
 }
 
 .footer {
-  padding: 180px 50px 82px 50px;
+  padding: 47px 50px 82px 50px;
   max-width: 1100px;
   top: 2848px;
   display: flex;
@@ -353,7 +350,6 @@
 .footer__social-list,
 .footr__social-list-item,
 .footer__menu-list,
-.footer__menu-link_active,
 .footer__menu-list-item,
 .footer__address {
   list-style: none;
@@ -367,17 +363,8 @@
 }
 
 .footer__menu {
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 18px;
   text-align: center;
   line-height: 20px;
-}
-
-/* текст активной ссылки*/
-.footer__menu-link_active {
-  text-decoration: none;
 }
 
 /*текст меню*/
