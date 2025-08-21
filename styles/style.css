@@ -7,12 +7,13 @@
 }
 
 .header {
-  padding: 95px 60px 95px 50px; /*???? */
+  padding: 93px 60px 95px 50px; /*???? */
   display: grid; /* ** */
   grid-template-columns: 1fr min-content 1fr; /* ** */
   align-items: center; /* ** */
 }
 
+/*общее*/
 .menu {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -43,7 +44,7 @@
   align-self: start;
 }
 
-/*главная*/
+/*главная общая*/
 .link_active {
   text-decoration: none;
 }
@@ -130,7 +131,7 @@
 .description {
   font-family: "Raleway", sans-serif;
   line-height: 28px;
-  margin-top: 105px;
+  margin-top: 110px;
   z-index: 2;
   position: relative;
   display: flex;
@@ -273,7 +274,7 @@
   font-style: normal;
   font-size: 20px;
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 3px;
   display: block;
   margin: 4px 0 0 65px;
 }
